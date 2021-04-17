@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON DESIGN</title>
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <div class="header">
+        <img src="backimg-menu@2x.png" alt="" class="header-img-active">
+        <a href="/" class="header-top">PON DESIGN</a>
+    <!-- ハンバーガーメニュー -->
+    <input id="menu" type="checkbox">
+    <label for="menu" class="open menu-btn"><div class="line"></div><div class="line"></div><div class="line"></div></label>
+    <label for="menu" class="back menu-btn"></label>
+
+    <aside class="nav-menu">
+        <label for="menu" class="close menu-btn">×</label>
+        <!-- メニュー(SP) -->
+        <nav class="drawer-content">
+            <ul class="drawer-list">
+                <li class="drawer-item">
+                <a class="link-item" href="../news/news.html">NEWS</a>
+                </li>
+                <li class="drawer-item">
+                <a  class="link-item" href="../service/service.html">SERVICE</a>
+                </li>
+                <li class="drawer-item">
+                <a class="link-item" href="../works/works.html">WORKS</a>
+                </li>
+                <li class="drawer-item">
+                <a class="link-item" href="../company/company.html">COMPANY</a>
+                </li>
+                <li class="drawer-item">
+                <a class="link-item" href="../recruit/recruit.html">RECRUIT</a>
+                </li>
+                <li class="drawer-item">
+                <a class="link-item" href="../contact/contact.html">CONTACT</a>
+                </li>
+            </ul>
+            </nav>
+            </aside>    
+    
+        
+            <!-- メニュー(PC) -->
+            <header class="header-nav">
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                        <a href="../news/news.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="../service/service.html">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="../works/works.html">WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="../company/company.html">COMPANY</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="../recruit/recruit.html">RECRUIT</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="../contact/contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+        <!-- トップセクション -->
+        <div class="title">
+                <h1 class="title-tx">CONTACT</h1>
+                <p class="title-lead">お問い合わせ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV -->
+    <div class="site-nav">
+        <a href="/"><span>HOME</span> > </a><a href="/news/news.html">CONTACT</a>
+    </div>
+    
+    <!-- CONTACT -->
+    <div class="contact-section">
+        <p class="contact-tx">Webサイトの制作のご依頼やお見積りなど、お気軽にご相談ください。</p>
+        <div class="contact-container">
+            <div class="contact-item1">
+                <h2 class="contact-lead">お問い合わせ種別
+                    <p>*必須</p>
+                </h2>
+                <div class="contact-select">
+                    <label for=""><input type="radio" name="type" style="transform:scale(1.3)" value="request">お仕事のご依頼・ご相談</label>
+                    <label for=""><input type="radio" name="type" style="transform:scale(1.3)" value="estimates">お見積りのご依頼</label>
+                    <label for=""><input type="radio" name="type" style="transform:scale(1.3)" value="recruitment">採用について</label>
+                    <label for=""><input type="radio" name="type" style="transform:scale(1.3)" value="other">その他</label>
+                </div>
+            </div>
+            <div class="contact-item2">
+                <h2 class="contact-lead">お名前
+                    <p>*必須</p>
+                </h2>
+                <input class="contact-input" type="text">
+            </div>
+            <div class="contact-item3">
+                <h2 class="contact-lead">会社名</h2>
+                <input class="contact-input" type="text">
+            </div>
+            <div class="contact-item4">
+                <h2 class="contact-lead">メールアドレス
+                    <p>*必須</p>
+                </h2>
+                <input class="contact-input" type="text">
+            </div>
+            <div class="contact-item5">
+                <h2 class="contact-lead">お電話番号
+                    <p><span>(半角数字ハイフンなし)</span></p>
+                </h2>
+                <input class="contact-input" type="text">
+            </div>
+            <div class="contact-item6">
+                <h2 class="contact-lead">お問い合わせ内容
+                    <p>*必須</p>
+                </h2>
+                <textarea class="contact-textarea" type="text"></textarea>
+                <input class="contact-input" type="text">
+            </div>
+            <div class="contact-item7">
+                <h2 class="contact-lead">PON DESIGNをどちらでお知りになりましたか？　<span>*必須</span></h2>
+                <select name="" id="">
+                    <option hidden value="">選択してください</option>
+                    <option value="">Google/Yahoo検索</option>
+                    <option value="">SNS</option>
+                    <option value="">ブログ</option>
+                    <option value="">友人や知人</option>
+                    <option value="">その他</option>
+                </select>
+            </div>
+            <input class="send-btn" type="submit" value="送信する">
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-section">
+            <ul class="footer-list1">
+                <li class="footer-item"><a href="/"><span class="br-sp">HOME</span></a></li>
+                <li class="footer-item"><a href="../news/news.html">NEWS</a></li>
+                <li class="footer-item"><a href="../service/service.html">SERVICE</a></li>
+                <li class="footer-item"><a href="../works/works.html">WORKS</a></li>
+            </ul>
+            <ul class="footer-list2">
+                <li class="footer-item"><a href="../company/company.html">COMPANY</a></li>
+                <li class="footer-item"><a href="../recruit/recruit.html">RECRUIT</li>
+                <li class="footer-item"><a href="../contact/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+
+        <small>© PON DESIGN</small>
+    </footer>
+
+    <p class="pagetop"><a href="#wrap">↑</a></p>
+
+    
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+</body>
+</html>

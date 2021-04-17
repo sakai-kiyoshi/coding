@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON DESIGN</title>
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    </style>
+</head>
+<body>
+<!-- ヘッダー -->
+<div class="header">
+    <a href="/" class="header-top">PON DESIGN</a>
+    <!-- ハンバーガーメニュー -->
+    <input id="menu" type="checkbox">
+    <label for="menu" class="open menu-btn"><div class="line"></div><div class="line"></div><div class="line"></div></label>
+    <label for="menu" class="back menu-btn"></label>
+
+    <aside class="nav-menu">
+        <label for="menu" class="close menu-btn">×</label>
+        <!-- メニュー(SP) -->
+        <nav class="drawer-content">
+        <ul class="drawer-list">
+            <li class="drawer-item">
+            <a class="link-item" href="news/news.html">NEWS</a>
+            </li>
+            <li class="drawer-item">
+            <a  class="link-item" href="service/service.html">SERVICE</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="works/works.html">WORKS</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="company/company.html">COMPANY</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="recruit/recruit.html">RECRUIT</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="contact/contact.html">CONTACT</a>
+            </li>
+        </ul>
+        </nav>
+        </aside>    
+        <!-- メニュー(PC) -->
+        <header class="header-nav">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                    <a href="news/news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="service/service.html">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="works/works.html">WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="company/company.html">COMPANY</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="recruit/recruit.html">RECRUIT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="contact/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+            <!-- トップセクション -->
+            <div class="title">
+                <h1 class="title-tx">WEB DESIGN SPECIALIST</h1>
+                <p class="title-lead">お客様の夢を叶えるWebサイトを制作</p>
+            <div class="btn-contact">
+                <a class="top-contact-btn" href="contact/contact.html">CONTACT</a>
+            </div>
+            <div class="scroll">
+                SCROLL
+                <div class="border">
+                    <!-- borderの擬似要素 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news-section">
+        <div class="news-container1">
+            <div class="heading">
+                <h2 class="heading-title">NEWS</h2>
+                <p class="heading-lead">お知らせ</p>
+            </div>
+        </div>
+        
+        <div class="news-container2">
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">Webデザインニュースサイト「ウェブマガジン」に取材いただきました</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.01.25</time>
+                    <p class="item-deta">制作実績</p>
+                </dt>
+                <dd class="item-note">Smoothiesta様のWebを制作いたしました</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.01.20</time>
+                    <p class="item-deta"><span>採用</span></p>
+                </dt>
+                <dd class="item-note">Webデザイナーを1名募集です！</dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <!-- SERVICE -->
+    <div class="service-section fadein">
+        <div class="service-container1">
+            <div class="heading">
+                <h2 class="heading-title">SERVICE</h2>
+                <p class="heading-lead">事業内容</p>
+            </div>
+        </div>
+        <div class="service-container2">
+            <div class="service-section">
+                <img src="images/SP-TOP/service1@2x.jpg" alt="" class="service1">
+                <h3 class="heading-tx">Webサイト制作</h3>
+                <p>新規サイトはもちろん、サイトリニューアルやランディングページ制作も行っております。</p>
+            </div>
+            <div class="service-section">
+                <img src="images/SP-TOP/service2@2x.jpg" alt="" class="service2">                
+                <h3 class="heading-tx">Webサイト制作</h3>
+                <p>サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案が可能です。</p>
+            </div>
+            <div class="service-section">
+                <img src="images/SP-TOP/service3@2x.jpg" alt="" class="service3">
+                <h3 class="heading-tx">アプリ開発</h3>
+                <p>スマートフォンアプリの開発の他、Vue.jsやReactによるWebアプリの開発が可能です。</p>
+            </div>
+        </div>
+        <a href="service/service.html" class="service-more">MORE</a>
+    </div>
+
+    <!-- スライダー -->
+    <div class="works-section fadein">
+        <div class="works-container1">
+            <ul class="slider">
+                <li><img src="images/WORKS/smoothiesta@2x.png" alt="" class="img-slide"></li>
+                <li><img src="images/WORKS/smoothiesta@2x.png" alt="" class="img-slide"></li>
+                <li><img src="images/WORKS/smoothiesta@2x.png" alt="" class="img-slide"></li>
+            </ul>    
+        </div>
+
+        <!-- WORKS -->
+        <div class="works-container2 fadein">
+            <div class="heading">
+                <h2 class="heading-title">WORKS</h2>
+                <p class="heading-lead">制作実績</p>
+                <p class="heading-note">様々なジャンルのWebサイト制作が可能です。<br>ご購入や申し込み数の増加などを実現します！</p>
+                <a href="works/works.html" class="works-more">MORE</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- COMPANY -->
+    <div class="company-section">
+        <div class="company-container1">
+            <div class="company-img">
+                <img class="company-img1" src="images/PC-TOP/pexels-ketut-subiyanto-4350225@2x.png" alt="">
+            </div>
+                <img class="company-img2" src="images/PC-TOP/pexels-mentatdgt-937481@2x.png" alt="">
+        </div>
+        <div class="company-container2">
+            <div class="heading">
+                    <h2 class="heading-title">COMPANY</h2>
+                    <p class="heading-lead">私たちについて</p>
+
+                <div class="catch-copy animate__animated" data-animate="animate__fadeInRight">
+                　サイトのゴール = <span class="br-sp">　</span><span class="br-sp"><br></span><span class="br-sp">　</span>夢を叶えること　
+                </div>
+
+                <p class="heading-note">
+                    お客様の夢を叶えること。<span class="br"><br></span>
+                    それがWebサイトのゴールであり、<span class="br-sp"><br></span>私たちが目指すことです。<span class="br"><br></span>
+                    だからこそちゃんと成果を出すサイトを<span class="br-sp"><br></span>全力でお作りします。<span class="br"><br></span>
+                    お客様の笑顔を見たい。<span class="br"><br></span>
+                    <span class="br-sp">夢を実現する手助けをさせてください。</span>
+                </p>
+                <a href="company/company.html" class="company-more">MORE</a>
+            </div>
+        </div>
+        <div class="company-container3">
+            <div class="company-img">
+                <img class="company-img3" src="images/PC-TOP/pexels-andrea-piacquadio-3761521@2x.png" alt="">
+            </div>
+            <img class="company-img4" src="images/PC-TOP/pexels-quang-anh-ha-nguyen-884977@2x.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- RECRUIT -->
+    <div class="recruit-section fadein">
+        <img src="images/SP-TOP/you-x-ventures-X8H8vPcelPk-unsplash@2x.jpg" alt="" class="img">
+        <div class="heading">
+            <h2 class="heading-title">RECRUIT</h2>
+            <p class="heading-lead">採用情報</p>
+            <p class="heading-note">私たちと一緒に働きませんか？</p>
+            <a href="recruit/recruit.html" class="recruit-more">MORE</a>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-section">
+        <div class="heading">
+            <h2 class="heading-title">CONTACT</h2>
+            <p class="heading-lead">お問い合わせ</p>
+            <p class="heading-note">Webサイトの制作のご依頼やお見積りなど、<span class="br-sp"><br></span>お気軽にご相談ください。</p>
+            <a href="contact/contact.html" class="contact-more">MORE</a>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-section">
+            <ul class="footer-list1">
+                <li class="footer-item"><a href="/"><span class="br-sp">HOME</span></a></li>
+                <li class="footer-item"><a href="news/news.html">NEWS</a></li>
+                <li class="footer-item"><a href="service/service.html">SERVICE</a></li>
+                <li class="footer-item"><a href="works/works.html">WORKS</a></li>
+            </ul>
+            <ul class="footer-list2">
+                <li class="footer-item"><a href="company/company.html">COMPANY</a></li>
+                <li class="footer-item"><a href="recruit/recruit.html">RECRUIT</li>
+                <li class="footer-item"><a href="contact/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <small>© PON DESIGN</small>
+    </footer>
+
+    <p class="pagetop"><a href="#wrap">↑</a></p>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slick.min.js"></script>
+</body>
+</html>

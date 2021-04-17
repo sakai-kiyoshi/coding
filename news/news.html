@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PON DESIGN</title>
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="news.css">
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    </style>
+</head>
+<body>
+<!-- ヘッダー -->
+<div class="header">
+    <a href="/" class="header-top">PON DESIGN</a>
+    <!-- ハンバーガーメニュー -->
+    <input id="menu" type="checkbox">
+    <label for="menu" class="open menu-btn"><div class="line"></div><div class="line"></div><div class="line"></div></label>
+    <label for="menu" class="back menu-btn"></label>
+
+    <aside class="nav-menu">
+        <label for="menu" class="close menu-btn">×</label>
+        <!-- メニュー(SP) -->
+        <nav class="drawer-content">
+        <ul class="drawer-list">
+            <li class="drawer-item">
+            <a class="link-item" href="../news/news.html">NEWS</a>
+            </li>
+            <li class="drawer-item">
+            <a  class="link-item" href="../service/service.html">SERVICE</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="../works/works.html">WORKS</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="../company/company.html">COMPANY</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="../recruit/recruit.html">RECRUIT</a>
+            </li>
+            <li class="drawer-item">
+            <a class="link-item" href="../contact/contact.html">CONTACT</a>
+            </li>
+        </ul>
+        </nav>
+        </aside>    
+    
+        <!-- メニュー(PC) -->
+        <header class="header-nav">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                    <a href="..//news/news.html">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="..//service/service.html">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="..//works/works.html">WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="..//company/company.html">COMPANY</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="../recruit/recruit.html">RECRUIT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="..//contact/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- トップセクション -->
+        <div class="title">
+                <h1 class="title-tx">NEWS</h1>
+                <p class="title-lead">お知らせ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV -->
+    <div class="site-nav">
+        <a href="/"><span>HOME</span> > </a><a href="/news/news.html">NEWS</a>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news-section">
+        <div class="news-container2">
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">Webデザインニュースサイト「ウェブマガジン」に取材いただきました</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.01.25</time>
+                    <p class="item-deta">制作実績</p>
+                </dt>
+                <dd class="item-note">Smoothiesta様のWebを制作いたしました</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.01.20</time>
+                    <p class="item-deta"><span>採用</span></p>
+                </dt>
+                <dd class="item-note">Webデザイナーを1名募集です！</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+            <dl class="item-list">
+                <dt class="item-time"><time>2030.02.01</time>
+                    <p class="item-deta">お知らせ</p>
+                </dt>
+                <dd class="item-note">テキストが入ります。テキストが入ります。テキストが入ります。</dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- ページネーション -->
+    <ul class="paging">
+        <li class="in-page">1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    
+    <!-- CONTACT -->
+    <div class="contact-section">
+        <div class="heading">
+            <h2 class="heading-title">CONTACT</h2>
+            <p class="heading-lead">お問い合わせ</p>
+            <p class="heading-note">Webサイトの制作のご依頼やお見積りなど、<span class="br-sp"><br></span>お気軽にご相談ください。</p>
+            <a href="../contact/contact.html" class="contact-more">MORE</a>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-section">
+            <ul class="footer-list1">
+                <li class="footer-item"><a href="/"><span class="br-sp">HOME</span></a></li>
+                <li class="footer-item"><a href="../news/news.html">NEWS</a></li>
+                <li class="footer-item"><a href="../service/service.html">SERVICE</a></li>
+                <li class="footer-item"><a href="../works/works.html">WORKS</a></li>
+            </ul>
+            <ul class="footer-list2">
+                <li class="footer-item"><a href="../company/company.html">COMPANY</a></li>
+                <li class="footer-item"><a href="../recruit/recruit.html">RECRUIT</li>
+                <li class="footer-item"><a href="../contact/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <small>© PON DESIGN</small>
+    </footer>
+
+    <p class="pagetop"><a href="#wrap">↑</a></p>
+
+    
+
+    <script src="/news/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/news/slick.min.js"></script>
+</body>
+</html>
